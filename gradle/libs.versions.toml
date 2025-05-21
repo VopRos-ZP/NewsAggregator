@@ -1,23 +1,22 @@
 [versions]
 agp = "8.7.3"
-kotlin = "2.0.0"
+kotlin = "2.1.20"
 coreKtx = "1.16.0"
-junit = "4.14-SNAPSHOT"
+junit = "5.12.2"
 junitVersion = "1.2.1"
 espressoCore = "3.6.1"
 lifecycleRuntimeKtx = "2.9.0"
 activityCompose = "1.10.1"
-composeBom = "2025.05.00"
+composeBom = "2025.05.01"
 retrofit = "2.11.0"
 retrofit2KotlinxSerializationConverter = "1.0.0"
 xmlUtil = "0.91.0"
 room = "2.7.1"
-hilt-version = "2.49"
-ksp-version = "2.0.0-1.0.24"
+ksp-version = "2.1.0-1.0.29"
 coilVersion = "3.2.0"
 recyclerviewVersion = "1.4.0"
 navigationUiKtx = "2.9.0"
-kotlinxCoroutines = "1.10.1"
+kotlinxCoroutines = "1.10.2"
 decompose = "3.3.0"
 mvikotlin = "4.3.0"
 koin = "4.0.3"
@@ -43,9 +42,6 @@ xmlutil-serialization = { group = "io.github.pdvrieze.xmlutil", name = "serializ
 androidx-recyclerview = { module = "androidx.recyclerview:recyclerview", version.ref = "recyclerviewVersion" }
 # Coil
 coil-compose = { module = "io.coil-kt.coil3:coil-compose", version.ref = "coilVersion" }
-# Hilt
-hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt-version" }
-hilt-compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "hilt-version" }
 # Koin
 koin-bom = { module = "io.insert-koin:koin-bom", version.ref = "koin" }
 koin-compose = { module = "io.insert-koin:koin-androidx-compose" }
@@ -68,7 +64,7 @@ mvikotlin-main = { module = "com.arkivanov.mvikotlin:mvikotlin-main", version.re
 mvikotlin-logging = { module = "com.arkivanov.mvikotlin:mvikotlin-logging", version.ref = "mvikotlin" }
 mvikotlin-extensions-coroutines = { module = "com.arkivanov.mvikotlin:mvikotlin-extensions-coroutines", version.ref = "mvikotlin" }
 # Test
-junit = { group = "junit", name = "junit", version.ref = "junit" }
+junit = { module = "org.junit.jupiter:junit-jupiter-api", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
 androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
@@ -80,6 +76,5 @@ kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp-version" }
-hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt-version" }
 androidx-room = { id = "androidx.room", version.ref = "room" }
 androidx-navigation-safeargs = { id = "androidx.navigation.safeargs", version.ref = "navigationUiKtx" }
